@@ -194,6 +194,12 @@ img {
   body {
     background: purple;
   }
+  .buddies {
+    width: 45%;
+  }
+  ol {
+    line-height: 2;
+  }
 }
 div section {
   display: flex;
@@ -231,7 +237,6 @@ h1 {
   display: flex;
   justify-content: center;
   font-size: 200%;
-  padding-left: 20px;
 }
 p {
   display:flex;
