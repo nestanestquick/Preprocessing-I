@@ -138,15 +138,6 @@ body {
   margin-right: auto;
   width: 75%;
 }
-.bordered {
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-  border-radius: 16px;
-  padding: 10px;
-  background-color: lightgray;
-}
-
 header nav {
   display: flex;
   flex-direction: row;
@@ -163,8 +154,7 @@ header nav {
   border-radius: 16px;
   padding: 10px;
   background-color: darkgray;
- }
-
+}
 header nav a {
   text-decoration: none;
   color: black;
@@ -173,8 +163,8 @@ header nav a {
   padding: 10px;
   background-color: darkgray;
 }
-
-div, section section{
+div,
+section section {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -209,12 +199,10 @@ div section a {
   justify-content: center;
   padding-bottom: 20px;
 }
-
 section {
-  display:flex;
+  display: flex;
   justify-content: space-around;
 }
-
 .buddies {
   width: 35%;
   padding-bottom: 15px;
@@ -223,11 +211,12 @@ section {
 li {
   padding-left: 15px;
 }
-
 .maindiv {
-  background: rgb(213, 223, 230);
+  background: #d5dfe6;
 }
-p, h2, h3 {
+p,
+h2,
+h3 {
   margin: 10px;
 }
 h1 {
@@ -236,13 +225,13 @@ h1 {
   font-size: 200%;
 }
 p {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
-section div ul li, section div ol li {
+section div ul li,
+section div ol li {
   line-height: 200%;
-  }
-
+}
 footer {
   display: flex;
   justify-content: center;
@@ -258,7 +247,6 @@ div h3 {
   font-weight: bold;
   padding-top: 15px;
 }
-
 h2 {
   font-size: 110%;
   font-weight: bold;
@@ -269,14 +257,11 @@ div h2 {
   justify-content: center;
   border-bottom: 1px dashed black;
 }
-
-
 /* Contact Page CSS */
-
 .contact {
   border: 1px solid black;
   background: lightgray;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 h4 {
@@ -293,3 +278,4 @@ h4 {
   margin: 0 auto;
   width: 50%;
 }
+/* hello */
