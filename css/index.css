@@ -197,9 +197,6 @@ img {
   .buddies {
     width: 45%;
   }
-  ol {
-    line-height: 2;
-  }
 }
 div section {
   display: flex;
@@ -242,6 +239,9 @@ p {
   display:flex;
   justify-content: center;
 }
+section div ul li, section div ol li {
+  line-height: 200%;
+  }
 
 footer {
   display: flex;
