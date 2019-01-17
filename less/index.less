@@ -54,7 +54,54 @@ table {
 }
 
 html, body {
-	height: 100%;
-	background: red;
+	box-sizing: border-box;
+ 	height: 100%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%; 
 }
+.special-border {
+	border: 1px solid black;
+	border-radius: 16px;
+	padding: 10px;
+	background-color: lightgray;
+}
+body {
+	flex-direction: column;
+	border: solid yellow;
+}
+header nav  {
+	display: flex;
+	border: red;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+header nav a, section a {
+	text-decoration: none;
+	color: black;
+	.special-border();
+}
+  section {
+	border: blue;
+}
+  
+div {
+	width: 100%;
+	margin: 10px;
+	border: dashed green;
+}
+  
+img {
+	width: 25%;
+	height: 25%
+}
+  
+@media (max-width: 500px) {
+	body {
+	background: purple;
+	}
+}
+  
+  
 

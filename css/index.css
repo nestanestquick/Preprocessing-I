@@ -136,10 +136,11 @@ body {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  width: 75%; 
+  width: 75%;
 }
-
-.special-border {
+.bordered {
+  text-decoration: none;
+  color: black;
   border: 1px solid black;
   border-radius: 16px;
   padding: 10px;
@@ -149,38 +150,79 @@ body {
   flex-direction: column;
   border: solid yellow;
 }
-header nav  {
+header nav {
   display: flex;
   border: red;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 10px;
 }
-header nav a, section a {
+ .bordered {
   text-decoration: none;
   color: black;
-  .special-border();
-  
-}
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 10px;
+  background-color: lightgray;
+ }
 
+header nav a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 10px;
+  background-color: lightgray;
+}
 section {
   border: blue;
 }
-
-div {
-  width: 100%;
-  margin: 10px;
-  border: dashed green;
+ul, ol {
+  border: solid brown;
 }
-
+div, section section{
+  width: 100%;
+  border: dashed green;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 img {
   width: 25%;
-  height: 25%
+  height: 25%;
 }
-
 @media (max-width: 500px) {
   body {
     background: purple;
   }
+  body img {
+    size: 200%;
+  }
+}
+div section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div section a {
+  width: 25%;
 }
 
+section {
+  display:flex;
+}
+
+.buddies {
+  width: 50%;
+}
+
+.maindiv {
+  background: lightskyblue;
+}
+p, h2 {
+  border: solid orange;
+  margin: 10px;
+}
+h1 {
+  font-size: 200%;
+  border: solid pink;
+}
